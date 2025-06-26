@@ -1,0 +1,43 @@
+@import '@styles/partials/variables';
+
+.headingWrap {
+    margin-bottom: 24px;
+
+    span {
+        padding: 6px 18px;
+        border-radius: 24px;
+        background-color: $siteHoverBg;
+        font-size: 12px;
+        display: block;
+        width: max-content;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        color: $siteColor;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    &.darkBg {
+        span {
+            background-color: $borderColor;
+            color: white;
+        }
+
+        h2 {
+            color: white;
+        }
+    }
+
+    &.centerAligned {
+        span {
+            margin: 0 auto 12px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    }
+}

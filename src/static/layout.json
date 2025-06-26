@@ -1,0 +1,64 @@
+{
+    "headerData": {
+        "logo": "/images/logo.png",
+        "menu": [
+            { "title": "Home", "link": "/" },
+            {
+                "title": "Insurance",
+                "link": "/services/insurance",
+                "items": [
+                    { "title": "Health Insurance", "link": "/services/insurance/health-insurance" },
+                    { "title": "Car Insurance", "link": "/services/insurance/car-insurance" }
+                ]
+            },
+            { "title": "Investments", "link": "/services/investments" },
+            { "title": "Credit Management", "link": "/services/credit-management" },
+            { "title": "Articles", "link": "/articles" },
+            { "title": "Contact Us", "link": "/contact-us" }
+        ],
+        "cta": "enquire now"
+    },
+    "footerData": {
+        "logo": "/images/logo-white.png",
+        "description": "The future is fast approaching, and the consumer industry is on the precipice of dramatic change since the last decade.",
+        "menuItems": [
+            {
+                "heading": "Quick Links",
+                "menu": [
+                    { "title": "SIP Returns Calculator", "link": "/sip-returns-calculator" },
+                    { "title": "FD Returns Calculator", "link": "/fd-returns-calculator" },
+                    { "title": "RD Returns Calculator", "link": "/rd-returns-calculator" },
+                    { "title": "Income Tax Calculator", "link": "/income-tax-calculator" },
+                    { "title": "Loan EMI Calculator", "link": "/loan-emi-calculator" }
+                ]
+            },
+            {
+                "heading": "Popular Services",
+                "menu": [
+                    { "title": "Health Insurance Advisory", "link": "/health-insurance-advisory" },
+                    { "title": "Car Insurance Advisory", "link": "/car-insurance-advisory" },
+                    { "title": "Asset Allocation", "link": "/asset-allocation" },
+                    { "title": "Credit Management", "link": "/services/credit-management" },
+                    { "title": "Risk & Compliance", "link": "/risk-and-compliance" }
+                ]
+            }
+        ],
+        "contactDetails": {
+            "heading": "Connect With Us",
+            "menu": [
+                { "title": "C-30, Vasant Gaon, New Delhi - 110045", "link": "https://www.google.com/maps" },
+                { "title": "connect@mywealthwiser.com", "link": "mailto:connect@mywealthwiser.com" },
+                { "title": "+91-9385385584", "link": "tel:+91-9385385584" },
+                {
+                    "title": "",
+                    "items": [
+                        { "title": "facebook", "link": "https://www.facebook.com/" },
+                        { "title": "instagram", "link": "https://www.instagram.com/" },
+                        { "title": "youtube", "link": "https://www.youtube.com/" },
+                        { "title": "twitter", "link": "https://x.com/" }
+                    ]
+                }
+            ]
+        }
+    }
+}

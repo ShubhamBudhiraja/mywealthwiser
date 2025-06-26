@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "icons";
+    src: url("/fonts/icons.ttf?4aa55cf4e08c7dd781a1039757bcba3e") format("truetype"),
+url("/fonts/icons.woff?4aa55cf4e08c7dd781a1039757bcba3e") format("woff"),
+url("/fonts/icons.woff2?4aa55cf4e08c7dd781a1039757bcba3e") format("woff2"),
+url("/fonts/icons.svg?4aa55cf4e08c7dd781a1039757bcba3e#icons") format("svg"),
+url("/fonts/icons.eot?4aa55cf4e08c7dd781a1039757bcba3e#iefix") format("embedded-opentype");
+}
+
+.font:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font.icon-youtube:before {
+    content: "\f101";
+}
+.font.icon-twitter:before {
+    content: "\f102";
+}
+.font.icon-instagram:before {
+    content: "\f103";
+}
+.font.icon-facebook:before {
+    content: "\f104";
+}
+.font.icon-down:before {
+    content: "\f105";
+}
+.font.icon-dollar:before {
+    content: "\f106";
+}

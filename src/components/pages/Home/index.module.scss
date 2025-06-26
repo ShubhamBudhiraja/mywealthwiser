@@ -1,0 +1,19 @@
+.counterWrapper {
+    padding: 60px 0;
+    background-color: black;
+
+    .item {
+        span,
+        p {
+            color: white;
+            text-align: center;
+            display: block;
+        }
+
+        span {
+            font-size: 64px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+    }
+}

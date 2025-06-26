@@ -1,0 +1,60 @@
+{
+    "stepsData": {
+        "heading": "How It Works",
+        "subHeading": "Our process",
+        "items": [
+            {
+                "title": "Step 1: Create Account",
+                "icon": "down",
+                "description": "Easily create your Zaplin account with one click and get 100 Million Tokens"
+            },
+            {
+                "title": "Step 2: Type Contex",
+                "icon": "down",
+                "description": "Easily create your Zaplin account with one click and get 100 Million Tokens"
+            },
+            {
+                "title": "Step 3: Get Images",
+                "icon": "down",
+                "description": "Easily create your Zaplin account with one click and get 100 Million Tokens"
+            }
+        ]
+    },
+    "whyUs": {
+        "heading": "Investment views and financial market data",
+        "subHeading": "why choose us",
+        "description": "We want to create superior value for our clients, shareholders and employees. And we want to stand out as a winner in our industry for our expertise, advice and execution",
+        "cta": "Enquire Now",
+        "ctaLink": "/contact-us",
+        "boxData": [
+            {
+                "items": [
+                    {
+                        "title": "Investor Relations",
+                        "icon": "dollar",
+                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                    },
+                    {
+                        "title": "Investor Relations",
+                        "icon": "dollar",
+                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "title": "Investor Relations",
+                        "icon": "dollar",
+                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                    },
+                    {
+                        "title": "Investor Relations",
+                        "icon": "dollar",
+                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                    }
+                ]
+            }
+        ]
+    }
+}

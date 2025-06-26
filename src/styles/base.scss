@@ -1,0 +1,41 @@
+html,
+body,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button,
+figure,
+img,
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: unset;
+    border-radius: unset;
+    cursor: pointer;
+
+    &:focus-visible {
+        outline: unset;
+    }
+}

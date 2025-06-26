@@ -1,0 +1,67 @@
+@import '@styles/partials/variables';
+
+.stepperWrapper {
+    display: flex;
+    column-gap: 30px;
+
+    .step {
+        position: relative;
+
+        h4 {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        p {
+            text-align: center;
+            padding: 0 16px;
+        }
+
+        .dot {
+            position: absolute;
+            top: 32px;
+            content: '';
+            border-radius: 50%;
+            border: 2px solid $borderColor;
+            width: 10px;
+            height: 10px;
+
+            &.connectStart {
+                left: 20%;
+            }
+
+            &.connectEnd {
+                right: 20%;
+            }
+        }
+
+        .iconWrap {
+            background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 30px;
+
+            i {
+                color: white;
+                font-size: 30px;
+            }
+        }
+
+        &:not(:last-child) {
+            &::after {
+                position: absolute;
+                content: '';
+                top: 38px;
+                right: calc(-20% - 30px);
+                width: calc(40% + 30px);
+                border: dashed 1px $borderColor;
+            }
+        }
+    }
+}
