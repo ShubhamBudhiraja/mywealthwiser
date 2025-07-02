@@ -56,5 +56,91 @@
                 ]
             }
         ]
+    },
+    "services": {
+        "heading": "What we offer",
+        "subHeading": "services",
+        "items": [
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            },
+
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            },
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            },
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            },
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            },
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            },
+            {
+                "title": "Investor Relations",
+                "icon": "dollar",
+                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+                "link": "/services/insurance"
+            }
+        ]
+    },
+    "newsLetter": {
+        "heading": "Let's connect!",
+        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+        "btnText": "SUBMIT",
+        "placeHolder": "Enter email address"
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. What is GlobalWebPay Alternative?",
+                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+            },
+            {
+                "id": 1,
+                "title": "2. What is GlobalWebPay Alternative?",
+                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+            },
+            {
+                "id": 2,
+                "title": "3. What is GlobalWebPay Alternative?",
+                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+            },
+            {
+                "id": 3,
+                "title": "4. What is GlobalWebPay Alternative?",
+                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+            },
+            {
+                "id": 4,
+                "title": "5. What is GlobalWebPay Alternative?",
+                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+            }
+        ]
     }
 }

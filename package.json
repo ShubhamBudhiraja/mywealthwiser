@@ -11,9 +11,12 @@
         "build-iconfonts": "fantasticon -c fantasticonrc.js -n icons --selector .font"
     },
     "dependencies": {
+        "lottie-react": "^2.4.1",
         "next": "15.3.4",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
+        "react-hook-form": "^7.59.0",
+        "react-slick": "^0.30.3",
         "sass": "^1.89.2"
     },
     "devDependencies": {

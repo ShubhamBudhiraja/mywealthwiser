@@ -1,0 +1,39 @@
+@import '@styles/partials/variables';
+
+.wrapper {
+    background-image: url('/images/banner-bg.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 80px;
+
+    .content {
+        max-width: 45%;
+
+        h2 {
+            color: white;
+        }
+
+        p {
+            color: white;
+            margin-bottom: 12px;
+        }
+
+        .formWrap {
+            display: flex;
+            gap: 12px;
+
+            input {
+                padding: 10px 30px;
+                border-radius: 40px;
+            }
+
+            button {
+                padding: 10px 30px;
+                border-radius: 40px;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}

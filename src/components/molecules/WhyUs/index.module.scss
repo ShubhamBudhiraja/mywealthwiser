@@ -17,6 +17,11 @@
         color: white;
         margin-top: 20px;
         text-transform: uppercase;
+        transition: 0.3s all ease;
+
+        &:hover {
+            scale: 1.1;
+        }
     }
 
     .boxes {

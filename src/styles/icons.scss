@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("/fonts/icons.ttf?4aa55cf4e08c7dd781a1039757bcba3e") format("truetype"),
-url("/fonts/icons.woff?4aa55cf4e08c7dd781a1039757bcba3e") format("woff"),
-url("/fonts/icons.woff2?4aa55cf4e08c7dd781a1039757bcba3e") format("woff2"),
-url("/fonts/icons.svg?4aa55cf4e08c7dd781a1039757bcba3e#icons") format("svg"),
-url("/fonts/icons.eot?4aa55cf4e08c7dd781a1039757bcba3e#iefix") format("embedded-opentype");
+    src: url("/fonts/icons.ttf?096df114502decc1436316405a959b4b") format("truetype"),
+url("/fonts/icons.woff?096df114502decc1436316405a959b4b") format("woff"),
+url("/fonts/icons.woff2?096df114502decc1436316405a959b4b") format("woff2"),
+url("/fonts/icons.svg?096df114502decc1436316405a959b4b#icons") format("svg"),
+url("/fonts/icons.eot?096df114502decc1436316405a959b4b#iefix") format("embedded-opentype");
 }
 
 .font:before {
@@ -27,12 +27,18 @@ url("/fonts/icons.eot?4aa55cf4e08c7dd781a1039757bcba3e#iefix") format("embedded-
 .font.icon-instagram:before {
     content: "\f103";
 }
-.font.icon-facebook:before {
+.font.icon-forward:before {
     content: "\f104";
 }
-.font.icon-down:before {
+.font.icon-facebook:before {
     content: "\f105";
 }
-.font.icon-dollar:before {
+.font.icon-down:before {
     content: "\f106";
+}
+.font.icon-dollar:before {
+    content: "\f107";
+}
+.font.icon-arrow-up:before {
+    content: "\f108";
 }

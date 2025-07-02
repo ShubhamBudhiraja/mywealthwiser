@@ -3,3 +3,5 @@ $siteSecondaryColor: #89d3b8;
 $borderColor: #e2e2e2;
 $siteHoverBg: rgba($siteColor, 0.2);
 $shadow: #e5e5e5;
+$gradientBg: linear-gradient(45deg, $siteColor, $siteSecondaryColor);
+$gradientBgReveted: linear-gradient(45deg, $siteSecondaryColor, $siteColor);

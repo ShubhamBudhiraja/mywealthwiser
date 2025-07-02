@@ -6,14 +6,15 @@ interface ISectionHeader {
     subHeading?: string;
     centerAligned?: boolean;
     darkBg?: boolean;
+    className?: string;
 }
 
 const SectionHeader = (props: ISectionHeader) => {
-    const { heading, subHeading, centerAligned, darkBg } = props;
+    const { heading, subHeading, centerAligned, darkBg, className = '' } = props;
 
     return (
         <div
-            className={`${style.headingWrap} ${centerAligned ? style.centerAligned : ''} ${darkBg ? style.darkBg : ''}`}
+            className={`${style.headingWrap} ${className} ${centerAligned ? style.centerAligned : ''} ${darkBg ? style.darkBg : ''}`}
         >
             {subHeading ? <span>{subHeading}</span> : <></>}
             <h2>{heading}</h2>

@@ -7,7 +7,7 @@ import Layout from '@organisms/Layout';
 import layoutData from '@static/layout.json';
 
 const urbanistFont = Urbanist({
-    weight: ['400', '600'],
+    weight: ['300', '400', '600'],
     variable: '--font-urbanist',
     subsets: ['latin'],
 });
