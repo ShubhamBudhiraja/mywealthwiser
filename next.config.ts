@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     output: 'export',
     reactStrictMode: false,
     basePath: '/mywealthwiser',
-    assetPrefix: '/mywealthwiser',
+    assetPrefix: '/mywealthwiser/',
 };
 
 export default nextConfig;
