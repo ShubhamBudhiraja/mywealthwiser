@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
 import '@styles/base.scss';
-import '@styles/common.scss';
-import '@styles/icons.scss';
 import Layout from '@organisms/Layout';
 import layoutData from '@static/layout.json';
 

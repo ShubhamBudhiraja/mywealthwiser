@@ -1,4 +1,46 @@
 {
+    "banner": {
+        "heading": "Smarter Investing, Brilliantly Spending",
+        "subHeading": "Consultants",
+        "description": "Establish your vision and value proposition and turn them into testable prototypes.",
+        "placeHolder": "Enter email address",
+        "btnText": "Connect Now",
+        "fieldId": "emailId",
+        "incomeFloater": {
+            "title": "Total Income",
+            "stat": "18%",
+            "value": "₹235305"
+        },
+        "assetsFloater": {
+            "title": "Assets Owned",
+            "stat": "₹3.5Cr"
+        }
+    },
+    "stats": {
+        "items": [
+            {
+                "count": 70,
+                "suffix": "%",
+                "title": "Recurring Clients"
+            },
+            {
+                "count": 100,
+                "suffix": "+",
+                "title": "Clients Onboarded"
+            },
+            {
+                "count": 100,
+                "prefix": "₹",
+                "suffix": "+",
+                "title": "Assets under management"
+            },
+            {
+                "count": 5,
+                "suffix": "+",
+                "title": "Years of Experience"
+            }
+        ]
+    },
     "stepsData": {
         "heading": "How It Works",
         "subHeading": "Our process",
@@ -60,6 +102,8 @@
     "services": {
         "heading": "What we offer",
         "subHeading": "services",
+        "btnText": "Know More",
+        "btnIcon": "forward",
         "items": [
             {
                 "title": "Investor Relations",
@@ -140,6 +184,37 @@
                 "id": 4,
                 "title": "5. What is GlobalWebPay Alternative?",
                 "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+            }
+        ]
+    },
+    "testimonials": {
+        "heading": "Love from Clients",
+        "subHeading": "Testimonials",
+        "items": [
+            {
+                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
+                "name": "Kunal Goel",
+                "photo": "/images/testimonial1.jpg"
+            },
+            {
+                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
+                "name": "Shubham Budhiraja",
+                "photo": "/images/testimonial2.jpg"
+            },
+            {
+                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
+                "name": "Arpit Tiwari",
+                "photo": "/images/testimonial3.jpg"
+            },
+            {
+                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
+                "name": "Rahul Khanna",
+                "photo": "/images/testimonial4.jpg"
+            },
+            {
+                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
+                "name": "Ram Kapoor",
+                "photo": "/images/testimonial5.jpg"
             }
         ]
     }

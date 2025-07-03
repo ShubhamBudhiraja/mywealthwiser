@@ -28,7 +28,7 @@ const SiteHeader = ({ data }: { data: IHeaderData }) => {
             <div className={style.innerWrap}>
                 <div className={`container ${style.content}`}>
                     <a href="/" className={style.siteLogo}>
-                        <img src="/images/logo.png" alt="" />
+                        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/logo.png`} alt="" />
                     </a>
                     <ul>
                         {menu.map((item: IIterableItem, index: number) => (

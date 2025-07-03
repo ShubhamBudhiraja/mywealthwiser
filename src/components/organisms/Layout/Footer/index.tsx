@@ -12,7 +12,7 @@ const SiteFooter = ({ data }: { data: any }) => {
                     <div className="row">
                         <div className="col">
                             <a href="/" className="mb-20 d-inline-block">
-                                <img src={logo} alt="" />
+                                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/logo-white.png`} alt="" />
                             </a>
                             <p>{description}</p>
                         </div>

@@ -12,8 +12,12 @@ import Accordion from '@atoms/Accordion';
 import Lottie from 'lottie-react';
 import animation from '../../../../public/animations/banner-animation.json';
 import Input from '@atoms/Input';
+import Carousel from '@molecules/Carousel';
+import TestimonialCard from '@molecules/TestimonialCard';
 
 const Home = ({ pageData }: { pageData: any }) => {
+    const { banner, stats } = pageData;
+
     const [email, setEmail] = useState('');
 
     return (
@@ -21,35 +25,34 @@ const Home = ({ pageData }: { pageData: any }) => {
             <section className={style.banner}>
                 <div className="container position-relative">
                     <SectionHeader
-                        heading="Smarter Investing, Brilliantly Spending"
-                        subHeading="Consultants"
+                        heading={banner?.heading}
+                        subHeading={banner?.subHeading}
                         className={style.heading}
                         centerAligned
                     />
-                    <p className={style.description}>
-                        Establish your vision and value proposition and turn them into testable prototypes.
-                    </p>
+                    <p className={style.description}>{banner?.description}</p>
                     <div className={style.form}>
                         <Input
-                            placeHolder="Enter your email"
-                            id="emailId"
+                            placeHolder={banner?.placeHolder}
+                            id={banner?.fieldId}
                             onChange={(e: any) => setEmail(e?.target?.value)}
                             value={email}
                         />
-                        <button>Connect Now</button>
+                        <button>{banner?.btnText}</button>
                     </div>
                     <div className={`${style.incomeFloater} ${style.floater}`}>
                         <div className="d-flex jc-between ai-center mb-12">
-                            <h5>Total Income</h5>
+                            <h5>{banner?.incomeFloater?.title}</h5>
                             <span className={style.stat}>
-                                <i className="font icon-arrow-up"></i>18%
+                                <i className="font icon-arrow-up"></i>
+                                {banner?.incomeFloater?.stat}
                             </span>
                         </div>
-                        <p>₹235305</p>
+                        <p>{banner?.incomeFloater?.value}</p>
                     </div>
                     <div className={`${style.assetsFloater} ${style.floater}`}>
-                        <h5 className="mb-12">Assets Owned</h5>
-                        <p className="mb-20">₹3.5Cr</p>
+                        <h5 className="mb-12">{banner?.assetsFloater?.title}</h5>
+                        <p className="mb-20">{banner?.assetsFloater?.stat}</p>
                         <div className={style.chart}>
                             {[...Array(10)].map((_, index: number) => (
                                 <span key={`graphBar_${index}`} />
@@ -65,31 +68,32 @@ const Home = ({ pageData }: { pageData: any }) => {
                     />
                 </div>
             </section>
+
             <section className={style.counterWrapper}>
                 <div className="container">
                     <div className="row">
-                        <div className="col">
-                            <Counter count={70} suffix="%" title="Recurring Clients" className={style.item} />
-                        </div>
-                        <div className="col">
-                            <Counter count={100} suffix="+" title="Clients onboarded" className={style.item} />
-                        </div>
-                        <div className="col">
-                            <Counter
-                                count={30}
-                                prefix="₹"
-                                suffix="L+"
-                                title="Portfolio under management"
-                                className={style.item}
-                            />
-                        </div>
-                        <div className="col">
-                            <Counter count={5} suffix="+" title="Years of Experience" className={style.item} />
-                        </div>
+                        {stats?.items?.map(
+                            (
+                                item: { count: number; prefix?: string; suffix?: string; title: string },
+                                index: number
+                            ) => (
+                                <div className="col" key={`stat_${index}`}>
+                                    <Counter
+                                        count={item.count}
+                                        suffix={item?.suffix}
+                                        prefix={item?.prefix}
+                                        title={item.title}
+                                        className={style.item}
+                                    />
+                                </div>
+                            )
+                        )}
                     </div>
                 </div>
             </section>
+
             <WhyUs {...pageData?.whyUs} />
+
             <section className={style.servicesWrapper}>
                 <div className="container">
                     <SectionHeader heading={pageData?.services?.heading} darkBg centerAligned />
@@ -99,8 +103,8 @@ const Home = ({ pageData }: { pageData: any }) => {
                                 key={`serviceCard_${index}`}
                                 title={service?.title}
                                 description={service?.description}
-                                cta="Know More"
-                                ctaIcon="forward"
+                                cta={pageData?.services?.btnText}
+                                ctaIcon={pageData?.services?.btnIcon}
                                 ctaLink={service?.link}
                                 icon={service?.icon}
                                 className={style.singleCard}
@@ -110,6 +114,7 @@ const Home = ({ pageData }: { pageData: any }) => {
                 </div>
                 <span className={style.bgText}>{pageData?.services?.subHeading}</span>
             </section>
+
             <section className="container section-top-margin section-bottom-margin">
                 <SectionHeader
                     heading={pageData?.stepsData?.heading}
@@ -118,9 +123,28 @@ const Home = ({ pageData }: { pageData: any }) => {
                 />
                 <ProcessStepper list={pageData?.stepsData?.items} />
             </section>
+
             <section className={style.newsLetterWrapper}>
                 <NewsLetter {...pageData?.newsLetter} />
             </section>
+
+            <section className={`${style.testimonials} section-bottom-margin`}>
+                <div className="container">
+                    <SectionHeader
+                        heading={pageData?.testimonials?.heading}
+                        subHeading={pageData?.testimonials?.subHeading}
+                        centerAligned
+                    />
+                </div>
+                <Carousel settings={{ slidesToShow: 1 }}>
+                    {pageData?.testimonials?.items?.map((item: any, index: number) => (
+                        <>
+                            <TestimonialCard {...item} />
+                        </>
+                    ))}
+                </Carousel>
+            </section>
+
             <section className={style.faqWrapper}>
                 <SectionHeader heading={pageData?.faq?.heading} subHeading={pageData?.faq?.subHeading} centerAligned />
                 <Accordion items={pageData?.faq?.items} />

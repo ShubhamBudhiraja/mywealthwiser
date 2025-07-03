@@ -16,7 +16,10 @@ const NewsLetter = (props: INewsLetter) => {
     const [email, setEmail] = useState('');
 
     return (
-        <div className={style.wrapper}>
+        <div
+            className={style.wrapper}
+            style={{ backgroundImage: `url("${process.env.NEXT_PUBLIC_BASE_PATH}/images/banner-bg.png")` }}
+        >
             <div className="container">
                 <div className={style.content}>
                     <SectionHeader heading={heading} />
