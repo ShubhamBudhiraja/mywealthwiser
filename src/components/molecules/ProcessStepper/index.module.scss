@@ -1,11 +1,8 @@
 @import '@styles/partials/variables';
 
 .stepperWrapper {
-    display: flex;
-    column-gap: 30px;
-
     .step {
-        position: relative;
+        margin-bottom: 40px;
 
         h4 {
             font-size: 20px;
@@ -20,21 +17,7 @@
         }
 
         .dot {
-            position: absolute;
-            top: 32px;
-            content: '';
-            border-radius: 50%;
-            border: 2px solid $borderColor;
-            width: 10px;
-            height: 10px;
-
-            &.connectStart {
-                left: 20%;
-            }
-
-            &.connectEnd {
-                right: 20%;
-            }
+            display: none;
         }
 
         .iconWrap {
@@ -45,7 +28,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 auto 30px;
+            margin: 0 auto 16px;
 
             i {
                 color: white;
@@ -61,6 +44,40 @@
                 right: calc(-20% - 30px);
                 width: calc(40% + 30px);
                 border: dashed 1px $borderColor;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .stepperWrapper {
+        display: flex;
+        column-gap: 30px;
+
+        .step {
+            position: relative;
+
+            .iconWrap {
+                margin: 0 auto 30px;
+            }
+
+            .dot {
+                display: block;
+                position: absolute;
+                top: 32px;
+                content: '';
+                border-radius: 50%;
+                border: 2px solid $borderColor;
+                width: 10px;
+                height: 10px;
+
+                &.connectStart {
+                    left: 20%;
+                }
+
+                &.connectEnd {
+                    right: 20%;
+                }
             }
         }
     }

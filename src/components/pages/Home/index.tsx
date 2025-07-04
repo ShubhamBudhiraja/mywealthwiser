@@ -71,13 +71,13 @@ const Home = ({ pageData }: { pageData: any }) => {
 
             <section className={style.counterWrapper}>
                 <div className="container">
-                    <div className="row">
+                    <ul>
                         {stats?.items?.map(
                             (
                                 item: { count: number; prefix?: string; suffix?: string; title: string },
                                 index: number
                             ) => (
-                                <div className="col" key={`stat_${index}`}>
+                                <li key={`stat_${index}`}>
                                     <Counter
                                         count={item.count}
                                         suffix={item?.suffix}
@@ -85,10 +85,10 @@ const Home = ({ pageData }: { pageData: any }) => {
                                         title={item.title}
                                         className={style.item}
                                     />
-                                </div>
+                                </li>
                             )
                         )}
-                    </div>
+                    </ul>
                 </div>
             </section>
 
@@ -97,7 +97,7 @@ const Home = ({ pageData }: { pageData: any }) => {
             <section className={style.servicesWrapper}>
                 <div className="container">
                     <SectionHeader heading={pageData?.services?.heading} darkBg centerAligned />
-                    <div className="d-flex jc-center gap-24 wrap">
+                    <div className={style.innerWrap}>
                         {pageData?.services?.items?.map((service: IIterableItem, index: number) => (
                             <ServiceCard
                                 key={`serviceCard_${index}`}

@@ -39,14 +39,14 @@ const Counter = (props: ICounter) => {
     }, [count, duration]);
 
     return (
-        <div className={className}>
+        <>
             <span>
                 {prefix}
                 {counter}
                 {suffix}
             </span>
             <p>{title}</p>
-        </div>
+        </>
     );
 };
 
