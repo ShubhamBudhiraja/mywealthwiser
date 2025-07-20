@@ -16,14 +16,14 @@ import Carousel from '@molecules/Carousel';
 import TestimonialCard from '@molecules/TestimonialCard';
 
 const Home = ({ pageData }: { pageData: any }) => {
-    const { banner, stats } = pageData;
+    const { banner } = pageData;
 
     const [email, setEmail] = useState('');
 
     return (
         <>
-            <section className={style.banner}>
-                <div className="container position-relative">
+            <section className={style.banner} id="heroSection">
+                <div className={`container position-relative ${style.content}`}>
                     <SectionHeader
                         heading={banner?.heading}
                         subHeading={banner?.subHeading}
@@ -40,7 +40,7 @@ const Home = ({ pageData }: { pageData: any }) => {
                         />
                         <button>{banner?.btnText}</button>
                     </div>
-                    <div className={`${style.incomeFloater} ${style.floater}`}>
+                    {/* <div className={`${style.incomeFloater} ${style.floater}`}>
                         <div className="d-flex jc-between ai-center mb-12">
                             <h5>{banner?.incomeFloater?.title}</h5>
                             <span className={style.stat}>
@@ -65,11 +65,11 @@ const Home = ({ pageData }: { pageData: any }) => {
                         autoplay
                         style={{ height: 450, width: 450 }}
                         className={style.animation}
-                    />
+                    /> */}
                 </div>
             </section>
 
-            <section className={style.counterWrapper}>
+            {/* <section className={style.counterWrapper}>
                 <div className="container">
                     <ul>
                         {stats?.items?.map(
@@ -90,7 +90,7 @@ const Home = ({ pageData }: { pageData: any }) => {
                         )}
                     </ul>
                 </div>
-            </section>
+            </section> */}
 
             <WhyUs {...pageData?.whyUs} />
 

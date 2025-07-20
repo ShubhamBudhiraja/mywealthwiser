@@ -25,6 +25,7 @@
             input {
                 padding: 10px 30px;
                 border-radius: 40px;
+                box-sizing: border-box;
             }
 
             button {
@@ -32,6 +33,31 @@
                 border-radius: 40px;
                 background-color: black;
                 color: white;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 20px 0;
+        background-image: unset !important;
+
+        .content {
+            max-width: 100%;
+
+            .formWrap {
+                display: block;
+
+                input {
+                    margin-bottom: 12px;
+                }
+
+                button {
+                    font-size: 16px;
+                    width: 100%;
+                    padding: 16px 30px;
+                }
             }
         }
     }

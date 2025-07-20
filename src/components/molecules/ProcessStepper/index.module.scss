@@ -35,17 +35,6 @@
                 font-size: 30px;
             }
         }
-
-        &:not(:last-child) {
-            &::after {
-                position: absolute;
-                content: '';
-                top: 38px;
-                right: calc(-20% - 30px);
-                width: calc(40% + 30px);
-                border: dashed 1px $borderColor;
-            }
-        }
     }
 }
 
@@ -77,6 +66,17 @@
 
                 &.connectEnd {
                     right: 20%;
+                }
+            }
+
+            &:not(:last-child) {
+                &::after {
+                    position: absolute;
+                    content: '';
+                    top: 38px;
+                    right: calc(-20% - 30px);
+                    width: calc(40% + 30px);
+                    border: dashed 1px $borderColor;
                 }
             }
         }
