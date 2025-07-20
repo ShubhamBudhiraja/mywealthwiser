@@ -1,15 +1,17 @@
 @import '@styles/partials/variables';
 
 .banner {
-    overflow: hidden;
-    position: relative;
-    padding-top: 64px;
+    .content {
+        z-index: 1;
+    }
 
     .animation {
-        margin: 0 auto -72px;
+        margin: 0 auto;
     }
 
     .floater {
+        background-color: white;
+
         h5 {
             font-size: 18px;
             color: #a1a0bd;
@@ -104,41 +106,33 @@
         }
     }
 
-    .heading {
-        h2 {
-            font-size: 64px;
-            display: block;
-            max-width: 560px;
-            margin: 0 auto;
-        }
-    }
-
     .description {
         max-width: 460px;
         margin: 0 auto 24px;
         text-align: center;
+        color: white;
     }
 
     .form {
-        display: flex;
-        gap: 12px;
-        max-width: 560px;
         margin: 0 auto;
 
         input {
+            box-sizing: border-box;
+            width: 100%;
             padding: 10px 20px;
             border-radius: 40px;
-            flex: 1;
-            width: auto;
             border: 1px solid $borderColor;
+            margin-bottom: 18px;
         }
 
         button {
-            padding: 10px 30px;
+            width: 100%;
+            padding: 16px 30px;
             border-radius: 40px;
             background: $gradientBg;
             color: white;
             text-transform: uppercase;
+            line-height: 20px;
         }
     }
 }
@@ -198,7 +192,7 @@
 }
 
 .newsLetterWrapper {
-    margin: 60px 52px 72px;
+    margin: 60px 20px 72px;
     background: $gradientBgReveted;
     border-radius: 20px;
     overflow: hidden;
@@ -209,7 +203,31 @@
     padding: 0 20px;
 }
 
+.testimonials {
+    display: none;
+}
+
 @media (min-width: 992px) {
+    .banner {
+        .form {
+            display: flex;
+            gap: 12px;
+            max-width: 560px;
+
+            input {
+                flex: 1;
+                width: auto;
+                margin-bottom: 0;
+            }
+
+            button {
+                padding: 10px 30px;
+                width: max-content;
+                line-height: 16px;
+            }
+        }
+    }
+
     .counterWrapper {
         padding: 60px 0;
         background-color: black;
@@ -274,6 +292,14 @@
         max-width: 850px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .newsLetterWrapper {
+        margin: 60px 52px 72px;
+    }
+
+    .testimonials {
+        display: block;
     }
 }
 

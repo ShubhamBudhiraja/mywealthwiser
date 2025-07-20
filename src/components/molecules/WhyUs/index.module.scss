@@ -10,6 +10,7 @@
         margin-top: 20px;
         text-transform: uppercase;
         transition: 0.3s all ease;
+        margin-bottom: 24px;
     }
 
     .boxes {
@@ -49,6 +50,8 @@
         }
 
         a {
+            margin-bottom: 0;
+
             &:hover {
                 scale: 1.1;
             }

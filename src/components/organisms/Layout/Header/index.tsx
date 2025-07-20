@@ -13,7 +13,8 @@ const SiteHeader = ({ data }: { data: IHeaderData }) => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 0) {
+            const heroSectionHeight = document.getElementById('heroSection');
+            if (window.scrollY > (heroSectionHeight?.clientHeight || 0)) {
                 if (!isSticky) setISticky(true);
             } else setISticky(false);
         };
@@ -28,7 +29,10 @@ const SiteHeader = ({ data }: { data: IHeaderData }) => {
             <div className={style.innerWrap}>
                 <div className={`container ${style.content}`}>
                     <a href="/" className={style.siteLogo}>
-                        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/logo.png`} alt="" />
+                        <img
+                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/logo-${isSticky ? 'light' : 'dark'}.png`}
+                            alt=""
+                        />
                     </a>
                     <ul>
                         {menu.map((item: IIterableItem, index: number) => (
