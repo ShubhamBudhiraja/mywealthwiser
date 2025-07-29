@@ -9,6 +9,7 @@ export interface IIterableItem {
 export interface IHeaderData {
     logo: string;
     menu: IIterableItem[];
+    hamburgerMenu: IIterableItem[];
     cta: string;
 }
 

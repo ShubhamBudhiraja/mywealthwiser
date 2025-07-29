@@ -1,0 +1,67 @@
+@import '@styles/partials/variables';
+
+.servicesWrapper {
+    margin: 52px 0;
+    padding: 80px 0;
+    background: $gradientBg;
+    position: relative;
+
+    .innerWrap {
+        .singleCard {
+            margin-bottom: 24px;
+        }
+    }
+
+    .bgText {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .servicesWrapper {
+        .innerWrap {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+
+            .singleCard {
+                margin-bottom: 0;
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .servicesWrapper {
+        margin: 72px 52px;
+        padding: 80px 80px 140px;
+        border-radius: 20px;
+
+        .innerWrap {
+            .singleCard {
+                width: 25%;
+                z-index: 1;
+            }
+        }
+
+        .bgText {
+            display: block;
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: transparent;
+            font-size: 240px;
+            line-height: 1;
+            text-transform: uppercase;
+            background-image: linear-gradient(white, transparent);
+            -webkit-text-stroke-color: transparent;
+            -webkit-text-stroke-width: 4px;
+            -webkit-text-fill-color: transparent;
+            background-color: transparent;
+            background-clip: text;
+        }
+    }
+}

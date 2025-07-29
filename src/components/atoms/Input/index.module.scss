@@ -6,8 +6,17 @@
     line-height: 30px;
     font-size: 18px;
     width: 100%;
+    box-sizing: border-box;
 
     &:focus-visible {
         outline: unset;
     }
+}
+
+.error {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    color: red;
+    font-size: 12px;
 }

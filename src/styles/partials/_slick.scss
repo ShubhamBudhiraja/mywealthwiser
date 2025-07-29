@@ -1,8 +1,8 @@
 .slick-slider {
     .slick-list {
         overflow: hidden;
-        padding-bottom: 72px !important;
-        padding-top: 48px !important;
+        padding-top: 42px !important;
+        padding-bottom: 56px !important;
 
         .slick-track {
             display: flex;
@@ -12,7 +12,7 @@
 
             .slick-slide {
                 z-index: 1 !important;
-                padding: 0 20px;
+                padding: 0 10px;
             }
         }
     }
@@ -21,7 +21,6 @@
         display: flex !important;
         justify-content: center;
         column-gap: 10px;
-
         z-index: 2;
 
         li {
@@ -64,6 +63,17 @@
                     background-color: black;
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .slick-slider .slick-list {
+        padding-bottom: 72px !important;
+        padding-top: 48px !important;
+
+        .slick-track .slick-slide {
+            padding: 0 20px;
         }
     }
 }

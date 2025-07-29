@@ -1,0 +1,45 @@
+@import '@styles/partials/variables';
+
+.sectionWrapper {
+    figure {
+        img {
+            width: 100%;
+            border-radius: 12px;
+        }
+    }
+
+    .content {
+        p {
+            margin-bottom: 12px;
+        }
+
+        button {
+            background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
+            padding: 14px 20px;
+            border-radius: 40px;
+            display: inline-block;
+            color: white;
+            margin-top: 20px;
+            text-transform: uppercase;
+            transition: 0.3s all ease;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .sectionWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        column-gap: 10%;
+
+        figure {
+            width: 42%;
+        }
+
+        .content {
+            width: 48%;
+        }
+    }
+}

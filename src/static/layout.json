@@ -3,18 +3,29 @@
         "logo": "/images/logo.png",
         "menu": [
             { "title": "Home", "link": "/" },
+            { "title": "Features", "link": "/features" },
             {
-                "title": "Insurance",
-                "link": "/services/insurance",
+                "title": "Services",
+                "link": "#",
                 "items": [
-                    { "title": "Health Insurance", "link": "/services/insurance/health-insurance" },
-                    { "title": "Car Insurance", "link": "/services/insurance/car-insurance" }
+                    { "title": "Personalised Financial Planning", "link": "/services/personalised-financial-planning" },
+                    { "title": "Investment Advisory", "link": "/services/investment-advisory" },
+                    { "title": "Credit Management", "link": "/services/credit-management" },
+                    { "title": "Risk And Insurance Advisory", "link": "/services/risk-and-insurance-advisory" },
+                    { "title": "Financial Coaching", "link": "/services/one-on-one-financial-coaching" }
                 ]
             },
-            { "title": "Investments", "link": "/services/investments" },
+            { "title": "Pricing", "link": "/pricing-plans" }
+        ],
+        "hamburgerMenu": [
+            { "title": "Home", "link": "/" },
+            { "title": "Features", "link": "/features" },
+            { "title": "Personalised Financial Planning", "link": "/services/personalised-financial-planning" },
+            { "title": "Investment Advisory", "link": "/services/investment-advisory" },
             { "title": "Credit Management", "link": "/services/credit-management" },
-            { "title": "Articles", "link": "/articles" },
-            { "title": "Contact Us", "link": "/contact-us" }
+            { "title": "Risk And Insurance Advisory", "link": "/services/risk-and-insurance-advisory" },
+            { "title": "Financial Coaching", "link": "/services/one-on-one-financial-coaching" },
+            { "title": "Pricing", "link": "/pricing-plans" }
         ],
         "cta": "enquire now"
     },
@@ -46,9 +57,7 @@
         "contactDetails": {
             "heading": "Connect With Us",
             "menu": [
-                { "title": "C-30, Vasant Gaon, New Delhi - 110045", "link": "https://www.google.com/maps" },
                 { "title": "connect@mywealthwiser.com", "link": "mailto:connect@mywealthwiser.com" },
-                { "title": "+91-9385385584", "link": "tel:+91-9385385584" },
                 {
                     "title": "",
                     "items": [

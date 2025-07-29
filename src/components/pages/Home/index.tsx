@@ -1,19 +1,15 @@
 'use client';
 import React, { useState } from 'react';
 import style from './index.module.scss';
-import Counter from '@atoms/Counter';
 import ProcessStepper from '@molecules/ProcessStepper';
-import SectionHeader from '@atoms/SectionHeading';
 import WhyUs from '@molecules/WhyUs';
-import ServiceCard from '@molecules/ServiceCard';
-import { IIterableItem } from 'src/interface/layout';
 import NewsLetter from '@molecules/NewsLetter';
 import Accordion from '@atoms/Accordion';
-import Lottie from 'lottie-react';
-import animation from '../../../../public/animations/banner-animation.json';
 import Input from '@atoms/Input';
 import Carousel from '@molecules/Carousel';
 import TestimonialCard from '@molecules/TestimonialCard';
+import ServicesBanner from '@molecules/ServicesBanner';
+import SectionHeading from '@atoms/SectionHeading';
 
 const Home = ({ pageData }: { pageData: any }) => {
     const { banner } = pageData;
@@ -23,12 +19,13 @@ const Home = ({ pageData }: { pageData: any }) => {
     return (
         <>
             <section className={style.banner} id="heroSection">
-                <div className={`container position-relative ${style.content}`}>
-                    <SectionHeader
+                <div className="container position-relative content">
+                    <SectionHeading
                         heading={banner?.heading}
                         subHeading={banner?.subHeading}
                         className={style.heading}
                         centerAligned
+                        isH1
                     />
                     <p className={style.description}>{banner?.description}</p>
                     <div className={style.form}>
@@ -94,29 +91,16 @@ const Home = ({ pageData }: { pageData: any }) => {
 
             <WhyUs {...pageData?.whyUs} />
 
-            <section className={style.servicesWrapper}>
-                <div className="container">
-                    <SectionHeader heading={pageData?.services?.heading} darkBg centerAligned />
-                    <div className={style.innerWrap}>
-                        {pageData?.services?.items?.map((service: IIterableItem, index: number) => (
-                            <ServiceCard
-                                key={`serviceCard_${index}`}
-                                title={service?.title}
-                                description={service?.description}
-                                cta={pageData?.services?.btnText}
-                                ctaIcon={pageData?.services?.btnIcon}
-                                ctaLink={service?.link}
-                                icon={service?.icon}
-                                className={style.singleCard}
-                            />
-                        ))}
-                    </div>
-                </div>
-                <span className={style.bgText}>{pageData?.services?.subHeading}</span>
-            </section>
+            <ServicesBanner
+                heading={pageData?.services?.heading}
+                services={pageData?.services?.items}
+                btnText={pageData?.services?.btnText}
+                btnIcon={pageData?.services?.btnIcon}
+                subHeading={pageData?.services?.subHeading}
+            />
 
-            <section className="container section-top-margin section-bottom-margin">
-                <SectionHeader
+            <section className="container section-bottom-margin">
+                <SectionHeading
                     heading={pageData?.stepsData?.heading}
                     subHeading={pageData?.stepsData?.subHeading}
                     centerAligned
@@ -128,25 +112,28 @@ const Home = ({ pageData }: { pageData: any }) => {
                 <NewsLetter {...pageData?.newsLetter} />
             </section>
 
-            <section className={`${style.testimonials} section-bottom-margin`}>
-                <div className="container">
-                    <SectionHeader
-                        heading={pageData?.testimonials?.heading}
-                        subHeading={pageData?.testimonials?.subHeading}
-                        centerAligned
-                    />
-                </div>
-                <Carousel settings={{ slidesToShow: 1 }}>
-                    {pageData?.testimonials?.items?.map((item: any, index: number) => (
-                        <>
-                            <TestimonialCard {...item} />
-                        </>
-                    ))}
-                </Carousel>
-            </section>
+            {pageData?.testimonials && (
+                <section className={`${style.testimonials} section-bottom-margin`}>
+                    <div className="container">
+                        <SectionHeading
+                            heading={pageData?.testimonials?.heading}
+                            subHeading={pageData?.testimonials?.subHeading}
+                            centerAligned
+                            className="mb-0"
+                        />
+                    </div>
+                    <Carousel settings={{ slidesToShow: 1 }}>
+                        {pageData?.testimonials?.items?.map((item: any, index: number) => (
+                            <div key={`carouselItem_${index}`}>
+                                <TestimonialCard {...item} />
+                            </div>
+                        ))}
+                    </Carousel>
+                </section>
+            )}
 
             <section className={style.faqWrapper}>
-                <SectionHeader heading={pageData?.faq?.heading} subHeading={pageData?.faq?.subHeading} centerAligned />
+                <SectionHeading heading={pageData?.faq?.heading} subHeading={pageData?.faq?.subHeading} centerAligned />
                 <Accordion items={pageData?.faq?.items} />
             </section>
         </>

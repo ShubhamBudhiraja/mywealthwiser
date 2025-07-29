@@ -1,0 +1,44 @@
+.iconsWrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 60px auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .inner {
+        position: absolute;
+
+        i {
+            color: white;
+            font-size: 8px;
+            display: block;
+
+            &:last-child {
+                top: 4px;
+            }
+        }
+    }
+
+    &:hover {
+        .inner {
+            animation: up-down 1.5s infinite;
+        }
+    }
+}
+
+@keyframes up-down {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 20px;
+    }
+
+    100% {
+        top: 0;
+    }
+}

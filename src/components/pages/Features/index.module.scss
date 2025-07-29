@@ -1,0 +1,26 @@
+.heading {
+    h1 {
+        max-width: 860px;
+    }
+}
+
+.description {
+    max-width: 740px;
+    margin: 0 auto 24px;
+}
+
+@media (min-width: 992px) {
+    .faqWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content {
+            width: 55%;
+        }
+
+        .animation {
+            width: 45%;
+        }
+    }
+}

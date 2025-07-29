@@ -21,6 +21,32 @@ const defaultSettings: Settings = {
     swipe: false,
     centerMode: true,
     fade: false,
+    responsive: [
+        {
+            breakpoint: 1024, // tablets
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '80px',
+                swipe: true,
+            },
+        },
+        {
+            breakpoint: 768, // small tablets / large phones
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '40px',
+                swipe: true,
+            },
+        },
+        {
+            breakpoint: 480, // phones
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '20px',
+                swipe: true,
+            },
+        },
+    ],
 };
 
 const Carousel = (props: ICarousel) => {

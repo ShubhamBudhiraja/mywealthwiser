@@ -1,6 +1,7 @@
 export type IconsId =
   | "youtube"
   | "twitter"
+  | "schedule"
   | "instagram"
   | "forward"
   | "facebook"
@@ -11,6 +12,7 @@ export type IconsId =
 export type IconsKey =
   | "Youtube"
   | "Twitter"
+  | "Schedule"
   | "Instagram"
   | "Forward"
   | "Facebook"
@@ -21,6 +23,7 @@ export type IconsKey =
 export enum Icons {
   Youtube = "youtube",
   Twitter = "twitter",
+  Schedule = "schedule",
   Instagram = "instagram",
   Forward = "forward",
   Facebook = "facebook",
@@ -32,10 +35,11 @@ export enum Icons {
 export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
   [Icons.Youtube]: "61697",
   [Icons.Twitter]: "61698",
-  [Icons.Instagram]: "61699",
-  [Icons.Forward]: "61700",
-  [Icons.Facebook]: "61701",
-  [Icons.Down]: "61702",
-  [Icons.Dollar]: "61703",
-  [Icons.ArrowUp]: "61704",
+  [Icons.Schedule]: "61699",
+  [Icons.Instagram]: "61700",
+  [Icons.Forward]: "61701",
+  [Icons.Facebook]: "61702",
+  [Icons.Down]: "61703",
+  [Icons.Dollar]: "61704",
+  [Icons.ArrowUp]: "61705",
 };

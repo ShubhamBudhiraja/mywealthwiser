@@ -1,0 +1,48 @@
+{
+    "banner": {
+        "heading": "Simple, Transparent Pricing",
+        "subHeading": "Pricing Plans",
+        "description": "No hidden fees. No confusing plans. Just honest advice that fits your life and goals."
+    },
+    "plans": {
+        "cta": "Select This Package",
+        "items": [
+            {
+                "heading": "Starter",
+                "amount": "999",
+                "description": "Perfect for students, freelancers, or anyone new to personal finance.",
+                "features": [
+                    "Budget & savings planner",
+                    "Half Yearly 1-on-1 video call with an advisor",
+                    "Monthly financial check-ins (via email)",
+                    "Investment recommendations"
+                ]
+            },
+            {
+                "heading": "Pro",
+                "amount": "2999",
+                "description": "For working professionals looking to invest and grow their money smartly.",
+                "features": [
+                    "Everything in Starter",
+                    "Personalised investment recommendations",
+                    "Quarterly 1-on-1 video call with an advisor",
+                    "Tax-saving & insurance guidance",
+                    "Portfolio performance report"
+                ]
+            },
+            {
+                "heading": "Elite",
+                "amount": "4999",
+                "description": "Tailored guidance with hands-on coaching and full financial planning.",
+                "features": [
+                    "Everything in Pro",
+                    "Dedicated financial coach",
+                    "Monthly 1-on-1 strategy call",
+                    "Monthly financial check-ins (via email)",
+                    "Premium priority support",
+                    "Income tax filing assistance"
+                ]
+            }
+        ]
+    }
+}

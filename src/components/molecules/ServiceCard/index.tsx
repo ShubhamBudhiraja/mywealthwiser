@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import style from './index.module.scss';
 import React from 'react';
 
@@ -12,27 +13,29 @@ interface IServiceCard {
 }
 
 const ServiceCard = (props: IServiceCard) => {
-    const { title, description, cta, ctaLink, ctaIcon, className = '', icon } = props;
+    const { title, description, cta, ctaLink = '', ctaIcon, className = '', icon } = props;
     return (
         <div className={`${style.cardWrapper} ${className}`}>
             {icon && (
-                <span className="d-flex jc-center ai-center">
-                    <i className={`font icon-${icon}`}></i>
-                </span>
+                <figure className="d-flex jc-center ai-center">
+                    <img src={icon} alt="" />
+                </figure>
             )}
             <h5>{title}</h5>
             <p>{description}</p>
-            <a href={ctaLink}>
-                {cta}
-                {ctaIcon ? (
-                    <>
-                        {' '}
-                        <i className={`font icon-${ctaIcon}`}></i>
-                    </>
-                ) : (
-                    <></>
-                )}
-            </a>
+            {cta && (
+                <Link href={ctaLink}>
+                    {cta}
+                    {ctaIcon ? (
+                        <>
+                            {' '}
+                            <i className={`font icon-${ctaIcon}`}></i>
+                        </>
+                    ) : (
+                        <></>
+                    )}
+                </Link>
+            )}
         </div>
     );
 };

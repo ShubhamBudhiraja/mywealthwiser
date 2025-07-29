@@ -1,8 +1,8 @@
 {
     "banner": {
-        "heading": "Smarter Investing, Brilliantly Spending",
-        "subHeading": "Consultants",
-        "description": "Establish your vision and value proposition and turn them into testable prototypes.",
+        "heading": "Ready to Get Wiser With Your Wealth?",
+        "subHeading": "Your Financial Coach",
+        "description": "Let’s create a roadmap to financial freedom — made just for you.",
         "placeHolder": "Enter email address",
         "btnText": "Connect Now",
         "fieldId": "emailId",
@@ -46,54 +46,54 @@
         "subHeading": "Our process",
         "items": [
             {
-                "title": "Step 1: Create Account",
-                "icon": "down",
-                "description": "Easily create your Zaplin account with one click and get 100 Million Tokens"
+                "title": "Step 1: Schedule a Free Consultation",
+                "icon": "/images/appointment.png",
+                "description": "Once you submit your email, we’ll reach out to set up a no-obligation call to understand your goals, financial situation, and what exactly you’re looking for."
             },
             {
-                "title": "Step 2: Type Contex",
-                "icon": "down",
-                "description": "Easily create your Zaplin account with one click and get 100 Million Tokens"
+                "title": "Step 2: Receive Your Personalised Strategy",
+                "icon": "/images/planning.png",
+                "description": "After the consultation, we’ll create a customised investment or financial plan tailored to your needs — with clear steps and transparent recommendations."
             },
             {
-                "title": "Step 3: Get Images",
-                "icon": "down",
-                "description": "Easily create your Zaplin account with one click and get 100 Million Tokens"
+                "title": "Step 3: Start Building Your Future",
+                "icon": "/images/future.png",
+                "description": "We’ll walk you through your plan, answer any questions, and help you take the first steps with confidence. From there, we stay by your side with ongoing support and guidance."
             }
         ]
     },
     "whyUs": {
-        "heading": "Investment views and financial market data",
+        "heading": "Reasons to Start & Stay with Us",
         "subHeading": "why choose us",
-        "description": "We want to create superior value for our clients, shareholders and employees. And we want to stand out as a winner in our industry for our expertise, advice and execution",
+        "description": "<p>At MyWealthWiser, we believe that financial clarity isn’t just for the wealthy — it’s for everyone. Whether you're earning your first paycheck, managing a growing family, or preparing for retirement, you deserve advice that's honest, practical, and tailored to your life. We’re here to help you understand your money, make smarter decisions, and move forward with confidence — no matter where you’re starting from.</p><p>We’re not the kind of advisors who throw jargon at you or sell one-size-fits-all solutions. We meet you where you are — in your language, at your pace. Our approach is human, friendly, and focused on what you care about: getting out of debt, growing your wealth, or finally breaking free from the paycheck-to-paycheck cycle.</p><p>This isn’t a crash course or a quick fix — it’s a structured, supportive journey built around your goals. With us, you get a judgment-free space to ask questions, build financial habits, and take action. From budgeting basics to long-term investment planning, we guide you step by step, month after month — helping you create a life where money fuels your goals, not your stress.</p>",
         "cta": "Enquire Now",
         "ctaLink": "/contact-us",
         "boxData": [
             {
                 "items": [
                     {
-                        "title": "Investor Relations",
-                        "icon": "dollar",
-                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                        "title": "Clarity Over Complexity",
+                        "icon": "/images/clarity.png",
+                        "description": "Our approach breaks complex financial concepts into simple, actionable steps — so you feel informed and in control, not lost or confused."
                     },
                     {
-                        "title": "Investor Relations",
-                        "icon": "dollar",
-                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                        "title": "Life-Stage Based Planning",
+                        "icon": "/images/life-plan.png",
+                        "description": "Whether you’re just starting your career, growing a family, or preparing for retirement, our advice adapts to your life stage."
                     }
                 ]
             },
             {
                 "items": [
                     {
-                        "title": "Investor Relations",
-                        "icon": "dollar",
-                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                        "title": "Insight-Driven",
+                        "icon": "/images/insight.png",
+                        "description": "We deliver personalised solutions with speed, precision, and a deeper understanding of your financial needs."
                     },
                     {
-                        "title": "Investor Relations",
-                        "icon": "dollar",
-                        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris."
+                        "title": "No Sales, Just Strategy",
+                        "icon": "/images/strategy.png",
+                        "description": "Our only priority is your financial growth through unbiased guidance built around your goals."
                     }
                 ]
             }
@@ -106,53 +106,40 @@
         "btnIcon": "forward",
         "items": [
             {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
-            },
-
-            {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
+                "title": "Personalised Financial Planning",
+                "icon": "/images/personalised.png",
+                "description": "Tailored financial plans to help you achieve your short- and long-term goals with confidence.",
+                "link": "/services/personalised-financial-planning"
             },
             {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
+                "title": "Investment Advisory",
+                "icon": "/images/investment-strategy.png",
+                "description": "Smart investment strategies designed to grow your wealth and align with your financial goals.",
+                "link": "/services/investment-advisory"
             },
             {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
+                "title": "Credit Management",
+                "icon": "/images/credit.png",
+                "description": "Improve, maintain, and monitor your credit health with strategic guidance and actionable steps.",
+                "link": "/services/credit-management"
             },
             {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
+                "title": "Risk & Insurance Advisory",
+                "icon": "/images/risk-management.png",
+                "description": "Protect your future with expert advice on risk management and the right insurance coverage.",
+                "link": "/services/risk-and-insurance-advisory"
             },
             {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
-            },
-            {
-                "title": "Investor Relations",
-                "icon": "dollar",
-                "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
-                "link": "/services/insurance"
+                "title": "One-on-One Financial Coaching",
+                "icon": "/images/advice.png",
+                "description": "Personalized coaching sessions to improve your money habits, mindset, and financial decision-making.",
+                "link": "/services/one-on-one-financial-coaching"
             }
         ]
     },
     "newsLetter": {
-        "heading": "Let's connect!",
-        "description": "Duis aute irure dolor in velit one reprehenderit in voluptate more esse cillum dolore neris.",
+        "heading": "Ready to take charge of your finances?",
+        "description": "Let’s get started on your path to financial freedom.",
         "btnText": "SUBMIT",
         "placeHolder": "Enter email address"
     },
@@ -162,59 +149,28 @@
         "items": [
             {
                 "id": 0,
-                "title": "1. What is GlobalWebPay Alternative?",
-                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+                "title": "1. What does the process look like?",
+                "body": "We begin with a detailed conversation to understand your goals and financial picture. Then, we design a personalised plan covering budgeting, savings, investments, insurance, retirement, and more — followed by regular reviews and updates as your life evolves."
             },
             {
                 "id": 1,
-                "title": "2. What is GlobalWebPay Alternative?",
-                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+                "title": "2. How is your advice different from online tools or apps?",
+                "body": "Unlike automated tools, our advice is human, holistic, and highly tailored. We go beyond numbers to understand your lifestyle, values, and concerns — creating a plan that actually fits your life."
             },
             {
                 "id": 2,
-                "title": "3. What is GlobalWebPay Alternative?",
-                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+                "title": "3. Is my financial information secure with you?",
+                "body": "Absolutely. We take data privacy seriously and use secure systems to store and manage your personal information. Your details are never shared without your consent."
             },
             {
                 "id": 3,
-                "title": "4. What is GlobalWebPay Alternative?",
-                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
+                "title": "4. How long does it take to receive my financial plan?",
+                "body": "Typically, your initial plan is ready within 5–10 business days after the discovery session. We prioritise quality and clarity to ensure every recommendation is well thought-out and easy to follow."
             },
             {
                 "id": 4,
-                "title": "5. What is GlobalWebPay Alternative?",
-                "body": "Lorem ipsum dolor sit amet consectetur. Ut parturient at volutpat dolor nunc cursus at rhoncus. Quis sit id tempus aliquam. Mauris felis purus morbi facilisis. Ullamcorper id consectetur ultricies nunc nunc enim accumsan porttitor."
-            }
-        ]
-    },
-    "testimonials": {
-        "heading": "Love from Clients",
-        "subHeading": "Testimonials",
-        "items": [
-            {
-                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
-                "name": "Kunal Goel",
-                "photo": "/images/testimonial1.jpg"
-            },
-            {
-                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
-                "name": "Shubham Budhiraja",
-                "photo": "/images/testimonial2.jpg"
-            },
-            {
-                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
-                "name": "Arpit Tiwari",
-                "photo": "/images/testimonial3.jpg"
-            },
-            {
-                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
-                "name": "Rahul Khanna",
-                "photo": "/images/testimonial4.jpg"
-            },
-            {
-                "testimonial": "We will assist in the establishment of the legal entities, working with the Fund and Sponsor's advisers to prepare bespoke documentation, supporting you get you smoothly through to launch.",
-                "name": "Ram Kapoor",
-                "photo": "/images/testimonial5.jpg"
+                "title": "5. How much does personalised financial planning cost?",
+                "body": "Our pricing depends on the level of service you choose — whether it’s a one-time plan or an ongoing relationship. We offer transparent, upfront pricing with no hidden fees. You’ll know exactly what you're paying for."
             }
         ]
     }

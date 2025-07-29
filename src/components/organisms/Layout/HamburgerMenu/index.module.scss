@@ -1,0 +1,39 @@
+.wrapper {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - 86px);
+    background-color: white;
+    z-index: 9;
+    padding: 40px 20px;
+    transition: all 0.5s;
+
+    ul {
+        li {
+            margin-bottom: 20px;
+
+            a {
+                color: black;
+                font-size: 20px;
+            }
+        }
+    }
+
+    &.dark {
+        background-color: black;
+
+        ul {
+            li {
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+    }
+}

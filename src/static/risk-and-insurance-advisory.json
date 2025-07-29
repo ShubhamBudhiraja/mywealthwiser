@@ -1,0 +1,97 @@
+{
+    "banner": {
+        "heading": "Risk & Insurance Advisory",
+        "subHeading": "Secure Future",
+        "description": "Be ready for life’s “what ifs.” We help you choose the right insurance without overpaying or being misled.",
+        "primaryImage": "/images/hero-big.png",
+        "secondaryImage": "/images/hero-small.png"
+    },
+    "about": [
+        {
+            "title": "Protect What Matters",
+            "description": "<p>Financial planning isn’t complete without protection. Our Risk & Insurance Advisory service ensures you’re prepared for the unexpected — whether it’s health issues, accidents, income loss, or other life disruptions. We help you identify your financial vulnerabilities and recommend the right insurance strategies to protect your wealth, your family, and your peace of mind.</p><p>We don’t sell insurance — we help you make informed, unbiased decisions about what kind of coverage you actually need.</p>"
+        },
+        {
+            "title": "A Smarter Way to Stay Protected",
+            "description": "<p>We believe insurance should empower you — not confuse or burden you. That’s why our advisory is free from product bias and driven by your best interests. We take the time to explain your options in simple terms and build a risk protection strategy that gives you clarity and confidence.</p><p>With the right plan in place, you can focus on your goals, knowing you and your loved ones are financially secure.</p>"
+        }
+    ],
+    "bgSection": {
+        "heading": "Unbiased, Product-Neutral Advice",
+        "image": "/images/insurance-usp.jpg",
+        "items": [
+            {
+                "title": "1. Comprehensive Risk Assessment",
+                "description": "We analyze your financial situation, dependents, assets, and liabilities to identify gaps and exposures that could impact your future."
+            },
+            {
+                "title": "2. Existing Policy Review",
+                "description": "Already insured? We evaluate your current policies to ensure they’re adequate, cost-effective, and aligned with your overall financial plan."
+            },
+            {
+                "title": "3. Claim Preparedness Guidance",
+                "description": "We help you stay organised with documentation and coverage awareness so you’re ready if the time comes to make a claim."
+            },
+            {
+                "title": "4. Integration with Your Financial Plan",
+                "description": "Insurance isn’t separate from your finances — we ensure it complements your investment, savings, and estate planning strategies."
+            },
+            {
+                "title": "5. Personalised Insurance Planning",
+                "description": "From life and health insurance to disability and critical illness coverage, we recommend the right mix of protection based on your needs and goals."
+            }
+        ]
+    },
+    "stepsData": {
+        "heading": "How It Works",
+        "subHeading": "Our process",
+        "items": [
+            {
+                "title": "Step 1: Schedule a Free Consultation",
+                "icon": "/images/appointment.png",
+                "description": "Once you submit your email, we’ll reach out to set up a no-obligation call to understand your goals, financial situation, and what exactly you’re looking for."
+            },
+            {
+                "title": "Step 2: Receive Your Personalised Strategy",
+                "icon": "/images/planning.png",
+                "description": "After the consultation, we’ll create a customised investment or financial plan tailored to your needs — with clear steps and transparent recommendations."
+            },
+            {
+                "title": "Step 3: Start Building Your Future",
+                "icon": "/images/future.png",
+                "description": "We’ll walk you through your plan, answer any questions, and help you take the first steps with confidence. From there, we stay by your side with ongoing support and guidance."
+            }
+        ]
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. Why do I need risk and insurance advice if I already have policies?",
+                "body": "Most people are either underinsured or overpaying. We review your coverage to ensure it’s aligned with your life stage, financial goals, and potential risks."
+            },
+            {
+                "id": 1,
+                "title": "2. Do you sell insurance products?",
+                "body": "No. We are advisors, not agents. Our guidance is independent and unbiased — focused solely on what’s right for you."
+            },
+            {
+                "id": 2,
+                "title": "3. Can you help me choose between term and whole life insurance?",
+                "body": "Yes. We help you understand the differences and guide you to the right option based on your needs, budget, and long-term financial strategy."
+            },
+            {
+                "id": 3,
+                "title": "4. Do you assist during claim settlement?",
+                "body": "While we don’t process claims, we help you stay prepared with proper documentation, coverage understanding, and proactive advice in case a claim arises."
+            },
+            {
+                "id": 4,
+                "title": "5. Is this service only for individuals?",
+                "body": "Not at all. We also assist business owners with key person insurance, liability coverage, and risk protection strategies for their companies."
+            }
+        ]
+    }
+}

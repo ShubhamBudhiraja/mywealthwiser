@@ -1,0 +1,83 @@
+{
+    "banner": {
+        "heading": "Everything you need to grow your wealth with confidence.",
+        "subHeading": "key features",
+        "description": "Our services are designed to meet you where you are — whether you're just starting your career or leveling up your wealth strategy."
+    },
+    "intro": {
+        "image": "/images/services-thumbnail.jpg",
+        "mobileImage": "/images/services-mobile-thumbnail.jpg",
+        "heading": "Empowering You with Financial Clarity and Confidence",
+        "subHeading": "Expert Guidance",
+        "description": "<p>We understand that managing your finances isn't just about numbers — it's about creating the life you want with less stress and more confidence. Whether you're planning for a major life goal, working to eliminate debt, or building long-term wealth, we’re here to guide you every step of the way.</p><p>Our services are built around you — your values, your goals, and your vision for the future. With expert insights, personalised strategies, and a relationship built on trust, we help simplify the complexities of money and turn them into clear, actionable steps.</p><p>No matter where you are on your financial journey, we’ll help you move forward with purpose and peace of mind. From building your first financial plan to managing investments, reducing liabilities, or securing the right insurance — our mission is to empower you with the clarity and confidence you need to make smart, lasting decisions.</p><p>It’s time to stop guessing — and start planning with a partner who truly listens and cares.</p>",
+        "ctaText": "Enquire Now",
+        "ctaLink": "/contact-us"
+    },
+    "services": {
+        "heading": "Things That Matter",
+        "subHeading": "features",
+        "items": [
+            {
+                "title": "Smart Budgeting",
+                "icon": "/images/budget.png",
+                "description": "Visualize, plan, and track every rupee. Build monthly budgets, categorize expenses, and see where your money goes."
+            },
+            {
+                "title": "Personalised Investment Planner",
+                "icon": "/images/personalised.png",
+                "description": "Get tailored SIP, mutual fund, and tax-saving suggestions based on your risk appetite and life goals."
+            },
+            {
+                "title": "Financial Education Hub",
+                "icon": "/images/training.png",
+                "description": "Learn money, the way you actually understand it. Our content is simple, visual, and totally binge-worthy"
+            },
+            {
+                "title": "1-on-1 Advisor Access",
+                "icon": "/images/advice.png",
+                "description": "Book video calls with experts who actually listen and help you make confident decisions."
+            },
+            {
+                "title": "Insurance & Risk Coverage Tools",
+                "icon": "/images/risk-management.png",
+                "description": "Be future-ready, not fear-driven. We help you understand and choose the right coverage without overpaying"
+            },
+            {
+                "title": "Financial Health Checkups",
+                "icon": "/images/financial-health.png",
+                "description": "Get monthly or quarterly reviews of your money performance — just like fitness check-ins, but for your wallet."
+            }
+        ]
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. What does the process look like?",
+                "body": "We begin with a detailed conversation to understand your goals and financial picture. Then, we design a personalised plan covering budgeting, savings, investments, insurance, retirement, and more — followed by regular reviews and updates as your life evolves."
+            },
+            {
+                "id": 1,
+                "title": "2. How is your advice different from online tools or apps?",
+                "body": "Unlike automated tools, our advice is human, holistic, and highly tailored. We go beyond numbers to understand your lifestyle, values, and concerns — creating a plan that actually fits your life."
+            },
+            {
+                "id": 2,
+                "title": "3. Is my financial information secure with you?",
+                "body": "Absolutely. We take data privacy seriously and use secure systems to store and manage your personal information. Your details are never shared without your consent."
+            },
+            {
+                "id": 3,
+                "title": "4. How long does it take to receive my financial plan?",
+                "body": "Typically, your initial plan is ready within 5–10 business days after the discovery session. We prioritize quality and clarity to ensure every recommendation is well thought-out and easy to follow."
+            },
+            {
+                "id": 4,
+                "title": "5. How much does personalised financial planning cost?",
+                "body": "Our pricing depends on the level of service you choose — whether it’s a one-time plan or an ongoing relationship. We offer transparent, upfront pricing with no hidden fees. You’ll know exactly what you're paying for."
+            }
+        ]
+    }
+}

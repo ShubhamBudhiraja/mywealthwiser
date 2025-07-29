@@ -1,0 +1,97 @@
+{
+    "banner": {
+        "heading": "Investment Advisory",
+        "subHeading": "enhanced Portfolio performance",
+        "description": "Personalised investment strategies across SIPs, stocks, and more — designed to match your goals, risk profile, and future plans.",
+        "primaryImage": "/images/hero-big.png",
+        "secondaryImage": "/images/hero-small.png"
+    },
+    "about": [
+        {
+            "title": "Invest Smarter, Not Just More",
+            "description": "<p>Whether you're just beginning your investment journey or looking to fine-tune an existing portfolio, our Investment Advisory service helps you make informed, confident decisions. From mutual funds and SIPs to individual stocks and ETFs, we provide tailored investment strategies aligned with your goals, risk tolerance, and time horizon.</p><p>We simplify the complex world of investing so you can focus on growing your wealth with clarity and peace of mind.</p>"
+        },
+        {
+            "title": "Rooted In Research, Not Trends",
+            "description": "<p>When it comes to your finances, we believe you deserve more than generic advice — you deserve a trusted partner who truly understands your goals. That’s why we take a personalised approach to every investment plan, carefully tailoring strategies to match your unique needs, risk tolerance, and long-term vision.</p><p>With years of experience and a people-first mindset, our team combines technical expertise with genuine care. We make investing feel less like a task — and more like a step toward something meaningful.</p>"
+        }
+    ],
+    "bgSection": {
+        "heading": "We act in your best interest, ALWAYS.",
+        "image": "/images/financial-planning-usp.jpg",
+        "items": [
+            {
+                "title": "1. SIP & Mutual Fund Strategy",
+                "description": "Consistent, disciplined investing through SIPs with handpicked mutual funds that match your profile."
+            },
+            {
+                "title": "2. Stock Market Guidance",
+                "description": "Access research-backed equity insights and ongoing support to help you navigate the market with confidence."
+            },
+            {
+                "title": "3. Risk Assessment & Optimisation",
+                "description": "Understand your risk appetite and adjust your portfolio to maintain the right balance of safety and growth."
+            },
+            {
+                "title": "4. Tax-Efficient Investing",
+                "description": "Minimize capital gains taxes and maximize post-tax returns with strategic asset allocation."
+            },
+            {
+                "title": "5. Regular Monitoring & Rebalancing",
+                "description": "We keep your portfolio aligned with market conditions and your evolving goals through continuous tracking and timely adjustments."
+            }
+        ]
+    },
+    "stepsData": {
+        "heading": "How It Works",
+        "subHeading": "Our process",
+        "items": [
+            {
+                "title": "Step 1: Schedule a Free Consultation",
+                "icon": "/images/appointment.png",
+                "description": "Once you submit your email, we’ll reach out to set up a no-obligation call to understand your goals, financial situation, and what exactly you’re looking for."
+            },
+            {
+                "title": "Step 2: Receive Your Personalised Strategy",
+                "icon": "/images/planning.png",
+                "description": "After the consultation, we’ll create a customised investment or financial plan tailored to your needs — with clear steps and transparent recommendations."
+            },
+            {
+                "title": "Step 3: Start Building Your Future",
+                "icon": "/images/future.png",
+                "description": "We’ll walk you through your plan, answer any questions, and help you take the first steps with confidence. From there, we stay by your side with ongoing support and guidance."
+            }
+        ]
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. Who is this investment advisory service for?",
+                "body": "Our services are ideal for anyone looking to invest wisely — whether you're a beginner, a working professional, or a seasoned investor seeking expert guidance. We tailor our advice to your financial goals and comfort with risk."
+            },
+            {
+                "id": 1,
+                "title": "2. What types of investments do you advise on?",
+                "body": "We provide guidance on a wide range of investment options including SIPs (Systematic Investment Plans), mutual funds, individual stocks, ETFs (Exchange-Traded Funds), and fixed-income instruments."
+            },
+            {
+                "id": 2,
+                "title": "3. Do I need a large amount to start investing?",
+                "body": "Not at all. With SIPs, you can start investing with as little as ₹500 per month. We help you build a strong foundation regardless of your starting point."
+            },
+            {
+                "id": 3,
+                "title": "4. How do you decide which investments are right for me?",
+                "body": "We start with a risk profile assessment and understand your goals, time horizon, and financial background. Based on this, we recommend a personalised investment strategy tailored to your needs."
+            },
+            {
+                "id": 4,
+                "title": "5. Is your advice independent and unbiased?",
+                "body": "Yes. We follow a client-first, fiduciary approach. Our recommendations are based on thorough research, not commissions or product affiliations."
+            }
+        ]
+    }
+}

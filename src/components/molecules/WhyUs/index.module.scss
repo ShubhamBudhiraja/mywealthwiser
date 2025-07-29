@@ -1,16 +1,19 @@
 @import '@styles/partials/variables';
 
 .contentWrap {
-    a {
+    button {
         background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
         padding: 14px 20px;
         border-radius: 40px;
         display: inline-block;
         color: white;
-        margin-top: 20px;
         text-transform: uppercase;
         transition: 0.3s all ease;
         margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 20px;
     }
 
     .boxes {
@@ -21,13 +24,9 @@
                 border-radius: 8px;
                 box-shadow: 0px 10px 60px 0px $shadow;
 
-                i {
-                    font-size: 36px;
-                    display: block;
+                img {
+                    width: 36px;
                     margin-bottom: 10px;
-                    background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
                 }
 
                 h4 {
@@ -62,6 +61,8 @@
             column-gap: 32px;
 
             ul {
+                flex: 1;
+
                 &:nth-child(2) {
                     margin-top: 60px;
                 }

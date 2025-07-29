@@ -8,5 +8,5 @@ module.exports = {
     },
     normalize: true,
     descent: 45,
-    fontsUrl: '/websitedemo/public_html/fonts',
+    fontsUrl: '/fonts',
 };

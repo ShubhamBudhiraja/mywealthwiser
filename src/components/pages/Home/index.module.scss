@@ -1,12 +1,14 @@
 @import '@styles/partials/variables';
 
 .banner {
-    .content {
-        z-index: 1;
-    }
-
     .animation {
         margin: 0 auto;
+    }
+
+    .heading {
+        h1 {
+            max-width: 560px;
+        }
     }
 
     .floater {
@@ -175,22 +177,6 @@
     }
 }
 
-.servicesWrapper {
-    padding: 80px 0;
-    background: $gradientBg;
-    position: relative;
-
-    .innerWrap {
-        .singleCard {
-            margin-bottom: 24px;
-        }
-    }
-
-    .bgText {
-        display: none;
-    }
-}
-
 .newsLetterWrapper {
     margin: 60px 20px 72px;
     background: $gradientBgReveted;
@@ -203,9 +189,9 @@
     padding: 0 20px;
 }
 
-.testimonials {
-    display: none;
-}
+// .testimonials {
+//     display: none;
+// }
 
 @media (min-width: 992px) {
     .banner {
@@ -250,41 +236,6 @@
                     content: none;
                 }
             }
-        }
-    }
-
-    .servicesWrapper {
-        margin: 60px 52px 24px;
-        padding: 80px 80px 140px;
-        border-radius: 20px;
-
-        .innerWrap {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            flex-wrap: wrap;
-
-            .singleCard {
-                width: calc(20%);
-                z-index: 1;
-            }
-        }
-
-        .bgText {
-            position: absolute;
-            bottom: -30px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: transparent;
-            font-size: 240px;
-            line-height: 1;
-            text-transform: uppercase;
-            background-image: linear-gradient(white, transparent);
-            -webkit-text-stroke-color: transparent;
-            -webkit-text-stroke-width: 4px;
-            -webkit-text-fill-color: transparent;
-            background-color: transparent;
-            background-clip: text;
         }
     }
 

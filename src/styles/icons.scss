@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("/fonts/icons.ttf?096df114502decc1436316405a959b4b") format("truetype"),
-url("/fonts/icons.woff?096df114502decc1436316405a959b4b") format("woff"),
-url("/fonts/icons.woff2?096df114502decc1436316405a959b4b") format("woff2"),
-url("/fonts/icons.svg?096df114502decc1436316405a959b4b#icons") format("svg"),
-url("/fonts/icons.eot?096df114502decc1436316405a959b4b#iefix") format("embedded-opentype");
+    src: url("/fonts/icons.ttf?0c1a9764a24cd019d5335a4b9834a108") format("truetype"),
+url("/fonts/icons.woff?0c1a9764a24cd019d5335a4b9834a108") format("woff"),
+url("/fonts/icons.woff2?0c1a9764a24cd019d5335a4b9834a108") format("woff2"),
+url("/fonts/icons.svg?0c1a9764a24cd019d5335a4b9834a108#icons") format("svg"),
+url("/fonts/icons.eot?0c1a9764a24cd019d5335a4b9834a108#iefix") format("embedded-opentype");
 }
 
 .font:before {
@@ -24,21 +24,24 @@ url("/fonts/icons.eot?096df114502decc1436316405a959b4b#iefix") format("embedded-
 .font.icon-twitter:before {
     content: "\f102";
 }
-.font.icon-instagram:before {
+.font.icon-schedule:before {
     content: "\f103";
 }
-.font.icon-forward:before {
+.font.icon-instagram:before {
     content: "\f104";
 }
-.font.icon-facebook:before {
+.font.icon-forward:before {
     content: "\f105";
 }
-.font.icon-down:before {
+.font.icon-facebook:before {
     content: "\f106";
 }
-.font.icon-dollar:before {
+.font.icon-down:before {
     content: "\f107";
 }
-.font.icon-arrow-up:before {
+.font.icon-dollar:before {
     content: "\f108";
+}
+.font.icon-arrow-up:before {
+    content: "\f109";
 }

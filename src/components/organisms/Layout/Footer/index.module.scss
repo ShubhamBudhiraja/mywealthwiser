@@ -2,7 +2,6 @@
 
 .footerWrapper {
     margin: 60px 20px 24px;
-    // background: linear-gradient(45deg, $siteColor, $siteSecondaryColor);
     background-color: black;
     padding: 40px 18px;
     border-radius: 20px;
@@ -90,7 +89,11 @@
 
             .column {
                 padding: 0 12px;
-                flex: 1;
+                width: 30%;
+
+                &:first-child {
+                    width: 40%;
+                }
 
                 &:not(:last-child) {
                     margin-bottom: 0;

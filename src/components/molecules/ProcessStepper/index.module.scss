@@ -30,9 +30,8 @@
             align-items: center;
             margin: 0 auto 16px;
 
-            i {
-                color: white;
-                font-size: 30px;
+            img {
+                width: 32px;
             }
         }
     }
@@ -45,6 +44,7 @@
 
         .step {
             position: relative;
+            flex: 1;
 
             .iconWrap {
                 margin: 0 auto 30px;

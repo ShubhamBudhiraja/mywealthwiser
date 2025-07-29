@@ -1,7 +1,7 @@
 @import '@styles/partials/variables';
 
 .headerWrapper {
-    min-height: 90px;
+    min-height: 86px;
 
     .innerWrap {
         background-color: black;
@@ -20,22 +20,58 @@
                 }
             }
 
-            ul {
+            .navBar {
                 display: none;
             }
 
             button {
-                background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
-                border-radius: 40px;
-                color: white;
-                transition: all 0.3s ease;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                font-size: 12px;
-                padding: 14px 18px;
+                display: none;
+            }
 
-                &:hover {
-                    scale: 1.1;
+            .hamburger {
+                width: 36px;
+                height: 36px;
+                cursor: pointer;
+                position: relative;
+
+                &:focus-visible {
+                    outline: unset;
+                }
+
+                span {
+                    display: block;
+                    background-color: white;
+                    height: 2px;
+                    border-radius: 8px;
+                    position: absolute;
+                    transition: 0.3s all ease;
+
+                    &:first-child {
+                        top: 10px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+
+                    &:last-child {
+                        top: 21px;
+                        right: 0;
+                        width: 75%;
+                    }
+                }
+
+                &.open {
+                    span {
+                        &:first-child {
+                            top: 18px;
+                            transform: rotate(45deg);
+                        }
+
+                        &:last-child {
+                            top: 18px;
+                            width: 100%;
+                            transform: rotate(-45deg);
+                        }
+                    }
                 }
             }
         }
@@ -50,6 +86,20 @@
             z-index: 99;
             box-shadow: 0px 0px 16px 0px $shadow;
             animation: slide-down 0.4s;
+
+            .content {
+                .hamburger {
+                    span {
+                        background-color: black;
+                    }
+                }
+            }
+        }
+
+        &.hamburgerOpen {
+            .innerWrap {
+                box-shadow: unset;
+            }
         }
     }
 }
@@ -57,10 +107,12 @@
 @media (min-width: 992px) {
     .headerWrapper {
         min-height: 108px;
+        z-index: 9;
+        position: relative;
 
         .innerWrap {
             .content {
-                ul {
+                .navBar {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -69,10 +121,10 @@
                     border-radius: 40px;
                     border: 1px solid $borderColor;
 
-                    li {
-                        overflow: hidden;
+                    .navItem {
+                        position: relative;
 
-                        a {
+                        .navLink {
                             padding: 10px 12px;
                             position: relative;
                             display: flex;
@@ -85,33 +137,97 @@
                                 transition: 0.3s all ease;
                             }
 
-                            &:hover {
+                            &.active {
+                                background-color: $siteHoverBg;
+                                border-radius: 40px;
+                                color: $siteColor;
+                                font-weight: bold;
+                            }
+                        }
+
+                        .dropdown {
+                            display: none;
+                            position: absolute;
+                            top: 40px;
+                            left: 0;
+                            width: 260px;
+
+                            ul {
+                                margin-top: 10px;
+                                background-color: black;
+                                padding: 12px 0;
+                                border-radius: 12px;
+                                border: 1px solid white;
+
+                                li {
+                                    a {
+                                        display: block;
+                                        padding: 8px 20px;
+                                        color: white;
+
+                                        &:hover {
+                                            color: $siteColor;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            .navLink {
                                 i {
                                     transform: rotate(-180deg);
                                 }
                             }
 
-                            &.active {
-                                background-color: $siteHoverBg;
-                                border-radius: 40px;
-                                color: $siteColor;
+                            .dropdown {
+                                display: block;
                             }
                         }
                     }
                 }
 
                 button {
+                    display: block;
                     padding: 14px 20px;
+                    background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
+                    border-radius: 40px;
+                    color: white;
+                    transition: all 0.3s ease;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 12px;
+
+                    &:hover {
+                        scale: 1.1;
+                    }
+                }
+
+                .hamburger {
+                    display: none;
                 }
             }
         }
 
         &.sticky {
             .innerWrap {
-                ul {
-                    li {
-                        a {
+                .navBar {
+                    .navItem {
+                        .navLink {
                             color: black;
+                        }
+
+                        .dropdown {
+                            ul {
+                                background-color: white;
+                                box-shadow: 0px 10px 60px 0px $shadow;
+
+                                li {
+                                    a {
+                                        color: black;
+                                    }
+                                }
+                            }
                         }
                     }
                 }

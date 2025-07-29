@@ -3,7 +3,7 @@
 .cardWrapper {
     background-color: white;
     box-shadow: 0px 10px 60px 0px $shadow;
-    padding: 40px 60px;
+    padding: 24px 20px;
     border-radius: 16px;
 
     img {
@@ -23,5 +23,11 @@
         font-style: italic;
         margin-bottom: 20px;
         text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .cardWrapper {
+        padding: 40px 60px;
     }
 }

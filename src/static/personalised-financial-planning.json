@@ -1,0 +1,97 @@
+{
+    "banner": {
+        "heading": "Personalised Financial Planning",
+        "subHeading": "Save. Spend. Invest.",
+        "description": "We help you build a realistic, goal-based plan for saving, spending, and investing. Think of it as your money map — customised for your life.",
+        "primaryImage": "/images/hero-big.png",
+        "secondaryImage": "/images/hero-small.png"
+    },
+    "about": [
+        {
+            "title": "A Plan Built Around Your Life",
+            "description": "<p>We understand that financial goals aren't one-size-fits-all. That’s why our Personalised Financial Planning service is designed to align with your unique life situation, priorities, and dreams.</p><p>Whether you're saving for a home, planning for your child’s education, preparing for retirement, or simply looking to make smarter financial decisions — we’re here to help you chart a clear path forward.</p>"
+        },
+        {
+            "title": "Guidance You Can Trust",
+            "description": "<p>We offer truly personalised financial advice tailored to your unique goals and lifestyle. As fiduciaries, we put your best interests first — always. Our approach is transparent, jargon-free, and focused on long-term success.</p><p>With proven expertise and a commitment to clear communication, we build lasting relationships based on trust. Whether you're just starting out or planning for retirement, we’re here to guide you every step of the way.</p>"
+        }
+    ],
+    "bgSection": {
+        "heading": "Planning with Purpose. Advice with Integrity.",
+        "image": "/images/financial-planning-usp.jpg",
+        "items": [
+            {
+                "title": "1. In-Depth Financial Assessment",
+                "description": "We start with a detailed analysis of your income, expenses, assets, liabilities, and long-term goals to understand where you are and where you want to go."
+            },
+            {
+                "title": "2. Goal-Oriented Strategy",
+                "description": "Together, we’ll define short- and long-term financial goals and build a customised strategy to help you achieve them — whether it's wealth building, debt reduction, or lifestyle planning."
+            },
+            {
+                "title": "3. Investment and Risk Planning",
+                "description": "We’ll help you understand your risk tolerance and build an investment strategy that matches your comfort level and goals."
+            },
+            {
+                "title": "4. Retirement Planning",
+                "description": "From IRAs to pensions to future income projections, we provide a retirement roadmap tailored to your desired lifestyle."
+            },
+            {
+                "title": "5. Regular Reviews & Adjustments",
+                "description": "Life changes, and so should your plan. We offer regular check-ins and ongoing support to ensure your strategy evolves with you."
+            }
+        ]
+    },
+    "stepsData": {
+        "heading": "How It Works",
+        "subHeading": "Our process",
+        "items": [
+            {
+                "title": "Step 1: Schedule a Free Consultation",
+                "icon": "/images/appointment.png",
+                "description": "Once you submit your email, we’ll reach out to set up a no-obligation call to understand your goals, financial situation, and what exactly you’re looking for."
+            },
+            {
+                "title": "Step 2: Receive Your Personalised Strategy",
+                "icon": "/images/planning.png",
+                "description": "After the consultation, we’ll create a customised investment or financial plan tailored to your needs — with clear steps and transparent recommendations."
+            },
+            {
+                "title": "Step 3: Start Building Your Future",
+                "icon": "/images/future.png",
+                "description": "We’ll walk you through your plan, answer any questions, and help you take the first steps with confidence. From there, we stay by your side with ongoing support and guidance."
+            }
+        ]
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. What is personalised financial planning?",
+                "body": "It’s a tailored approach to managing your money based on your unique goals, income, expenses, assets, and future plans. Rather than generic advice, we create a strategy that aligns with your specific life situation."
+            },
+            {
+                "id": 1,
+                "title": "2. What does the process look like?",
+                "body": "We begin with a detailed conversation to understand your goals and financial picture. Then, we design a personalised plan covering budgeting, savings, investments, insurance, retirement, and more — followed by regular reviews and updates as your life evolves."
+            },
+            {
+                "id": 2,
+                "title": "3. Do I need to have a certain income level to get started?",
+                "body": "Not at all. Financial planning is about making the most of what you have. We work with clients across all income levels — helping them plan smarter, save more, and build lasting financial stability."
+            },
+            {
+                "id": 3,
+                "title": "4. Is this a one-time service or ongoing?",
+                "body": "You can choose either. Many clients begin with a one-time plan and continue with ongoing support to adjust their strategy as circumstances change. For more details, do check out pricing plans."
+            },
+            {
+                "id": 4,
+                "title": "5. How often do we review the plan?",
+                "body": "We recommend reviewing your plan at least once a year, or sooner if you experience major life changes like a job shift, marriage, new child, or large purchase."
+            }
+        ]
+    }
+}

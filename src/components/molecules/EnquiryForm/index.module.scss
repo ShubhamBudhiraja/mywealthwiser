@@ -1,0 +1,50 @@
+@import '@styles/partials/variables';
+
+.customInput {
+    border: 1px solid $borderColor !important;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 24px;
+
+    button {
+        flex: 1;
+        text-transform: uppercase;
+        padding: 14px 20px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        border-radius: 40px;
+        font-weight: bold;
+    }
+
+    .primaryBtn {
+        background: linear-gradient(65deg, $siteColor, $siteSecondaryColor);
+        color: white;
+    }
+
+    .secondaryBtn {
+        border: 2px solid $siteColor;
+        color: $siteColor;
+    }
+}
+
+.successMsg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .buttons {
+        column-gap: 18px;
+
+        button {
+            padding: 10px 18px;
+        }
+    }
+}

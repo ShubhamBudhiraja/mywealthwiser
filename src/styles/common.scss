@@ -66,6 +66,10 @@ p {
     width: 50% !important;
 }
 
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
 .mb-12 {
     margin-bottom: 12px;
 }
@@ -74,10 +78,26 @@ p {
     margin-bottom: 20px;
 }
 
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.d-lg-block {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
 #heroSection {
     overflow: hidden;
     position: relative;
-    padding: 64px 0 120px;
+    padding: 52px 0;
 
     &::after {
         position: absolute;
@@ -92,9 +112,19 @@ p {
         border-bottom-right-radius: 50%;
     }
 
-    h2 {
+    h1 {
         font-size: 36px;
         color: white;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+
+        p {
+            color: white;
+            text-align: center;
+        }
     }
 }
 
@@ -150,12 +180,21 @@ p {
     }
 
     #heroSection {
-        h2 {
+        padding: 64px 0 120px;
+
+        h1 {
             font-size: 64px;
             display: block;
-            max-width: 560px;
             margin: 0 auto;
         }
+    }
+
+    .d-lg-none {
+        display: none;
+    }
+
+    .d-lg-block {
+        display: block;
     }
 }
 

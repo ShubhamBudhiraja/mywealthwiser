@@ -1,7 +1,7 @@
 @import '@styles/partials/variables';
 
 .headingWrap {
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 
     span {
         padding: 6px 18px;
@@ -15,8 +15,9 @@
         color: $siteColor;
     }
 
+    h1,
     h2 {
-        font-size: 28px;
+        font-size: 29px;
         font-weight: 600;
     }
 
@@ -26,6 +27,7 @@
             color: white;
         }
 
+        h1,
         h2 {
             color: white;
         }
@@ -36,6 +38,7 @@
             margin: 0 auto 12px;
         }
 
+        h1,
         h2 {
             text-align: center;
         }
@@ -44,6 +47,9 @@
 
 @media (min-width: 992px) {
     .headingWrap {
+        margin-bottom: 24px;
+
+        h1,
         h2 {
             font-size: 40px;
         }

@@ -1,0 +1,97 @@
+{
+    "banner": {
+        "heading": "One-on-One Financial Coaching",
+        "subHeading": "No upselling. No pressure.",
+        "description": "Prefer talking it through? Book a session with a qualified advisor who understands your challenges and helps you build a financial game plan. We help you understand money without the boring lectures. Finance, decoded for your lifestyle.",
+        "primaryImage": "/images/hero-big.png",
+        "secondaryImage": "/images/hero-small.png"
+    },
+    "about": [
+        {
+            "title": "Personal Guidance For You",
+            "description": "<p>Sometimes, you need more than just a plan — you need a coach. Our One-on-One Financial Coaching service offers personalised, ongoing support to help you develop healthier financial habits, gain clarity on money matters, and stay accountable to your goals. Whether you’re trying to get out of debt, improve your budgeting, increase savings, or build long-term wealth, our coaching is tailored to you — your pace, your priorities, your future.</p>"
+        },
+        {
+            "title": "It's A Partnership",
+            "description": "<p>Our coaching is built around you — not spreadsheets or sales pitches. We take the time to understand your relationship with money and create a safe, judgment-free space for growth. With our ongoing support, you’ll gain financial clarity, build better habits, and start making decisions that support your life — not just your bank account. It’s personal, practical, and deeply empowering.</p>"
+        }
+    ],
+    "bgSection": {
+        "heading": "Custom reports & actionable tips",
+        "image": "/images/insurance-usp.jpg",
+        "items": [
+            {
+                "title": "1. Goal-Based Money Coaching",
+                "description": "Set clear, realistic financial goals and work step-by-step toward achieving them with professional support and encouragement."
+            },
+            {
+                "title": "2. Debt Reduction & Savings Strategy",
+                "description": "Get personalised guidance on how to reduce liabilities and create a savings plan that sticks."
+            },
+            {
+                "title": "3. Mindset & Behavior Coaching",
+                "description": "Break unhealthy financial patterns, overcome emotional spending, and develop a confident, proactive money mindset."
+            },
+            {
+                "title": "4. Accountability & Progress Tracking",
+                "description": "With regular check-ins and milestone reviews, you’ll stay focused, motivated, and on track to reach your goals."
+            },
+            {
+                "title": "5. Tailored Support for Life Events",
+                "description": "Whether you’re starting your career, navigating a job change, planning a wedding, or buying your first home — we’ll guide you through it all."
+            }
+        ]
+    },
+    "stepsData": {
+        "heading": "How It Works",
+        "subHeading": "Our process",
+        "items": [
+            {
+                "title": "Step 1: Schedule a Free Consultation",
+                "icon": "/images/appointment.png",
+                "description": "Once you submit your email, we’ll reach out to set up a no-obligation call to understand your goals, financial situation, and what exactly you’re looking for."
+            },
+            {
+                "title": "Step 2: Receive Your Personalised Strategy",
+                "icon": "/images/planning.png",
+                "description": "After the consultation, we’ll create a customised investment or financial plan tailored to your needs — with clear steps and transparent recommendations."
+            },
+            {
+                "title": "Step 3: Start Building Your Future",
+                "icon": "/images/future.png",
+                "description": "We’ll walk you through your plan, answer any questions, and help you take the first steps with confidence. From there, we stay by your side with ongoing support and guidance."
+            }
+        ]
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. How is financial coaching different from financial planning?",
+                "body": "Financial coaching focuses on daily money habits, decision-making, and behavior change, while financial planning is more strategy- and goal-focused. Coaching is more hands-on and ongoing."
+            },
+            {
+                "id": 1,
+                "title": "2. Is this service only for people in debt?",
+                "body": "Not at all. Coaching is for anyone looking to improve their relationship with money, create better habits, and make smarter financial choices — regardless of income level or debt."
+            },
+            {
+                "id": 2,
+                "title": "3. How often will we meet?",
+                "body": "Most clients meet with their coach monthly or quarterly, depending on their needs. We’ll agree on a schedule that fits your situation and keeps you on track."
+            },
+            {
+                "id": 3,
+                "title": "4. Will I receive a financial plan?",
+                "body": "Coaching focuses more on building financial behaviors than detailed plans, but we do help you outline simple, actionable strategies to manage money effectively."
+            },
+            {
+                "id": 4,
+                "title": "5. Do I need to prepare anything before our first session?",
+                "body": "Just bring yourself and your goals. If possible, a list of your income, expenses, debts, and savings can help us get started faster."
+            }
+        ]
+    }
+}

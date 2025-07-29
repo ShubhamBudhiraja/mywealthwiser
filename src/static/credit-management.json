@@ -1,0 +1,97 @@
+{
+    "banner": {
+        "heading": "Credit Management & Liability Reduction",
+        "subHeading": "credit monitoring",
+        "description": "Struggling with credit card dues, EMIs, or loans? We help you take control of your liabilities and rebuild your credit the smart way.",
+        "primaryImage": "/images/hero-big.png",
+        "secondaryImage": "/images/hero-small.png"
+    },
+    "about": [
+        {
+            "title": "Take Control of Your Debt",
+            "description": "<p>Managing debt can feel overwhelming — but with the right strategy, it's possible to reduce liabilities, improve your credit score, and regain full control of your financial future. Our Credit Management & Liability Reduction service is designed to help you understand where you stand, create a clear action plan, and eliminate debt efficiently and responsibly.</p><p>Whether you're dealing with credit card balances, personal loans, EMIs, or other liabilities, we help you break the cycle and move toward a more secure, stress-free financial life.</p>"
+        },
+        {
+            "title": "Why Our Approach Works",
+            "description": "<p>We don’t just offer debt advice — we provide a complete plan to help you regain control and build a stronger financial future. Our approach is personal, practical, and judgment-free. We take the time to understand your unique credit situation and design strategies that are realistic, sustainable, and effective. With clear guidance, regular check-ins, and a focus on long-term financial health, we help you reduce liabilities, improve your credit score, and avoid falling back into debt. We’re here to guide, support, and empower — every step of the way.</p>"
+        }
+    ],
+    "bgSection": {
+        "heading": "Get out of debt — and stay out",
+        "image": "/images/financial-planning-usp.jpg",
+        "items": [
+            {
+                "title": "1. Credit Health Assessment",
+                "description": "We start by evaluating your current credit score, debt profile, and repayment history to understand the full picture."
+            },
+            {
+                "title": "2. Debt Optimization Plan",
+                "description": "Receive a structured, personalised plan to reduce high-interest debts first, consolidate loans if beneficial, and improve your repayment terms."
+            },
+            {
+                "title": "3. Credit Score Improvement",
+                "description": "Learn actionable steps to boost your credit score through better credit usage, payment discipline, and responsible borrowing."
+            },
+            {
+                "title": "4. Loan Restructuring Guidance",
+                "description": "We help you explore refinancing, balance transfers, and other restructuring options to reduce EMIs and ease financial pressure."
+            },
+            {
+                "title": "5. Budget & Cash Flow Planning",
+                "description": "Build a practical monthly budget to stay on track, avoid further debt accumulation, and start saving consistently."
+            }
+        ]
+    },
+    "stepsData": {
+        "heading": "How It Works",
+        "subHeading": "Our process",
+        "items": [
+            {
+                "title": "Step 1: Schedule a Free Consultation",
+                "icon": "/images/appointment.png",
+                "description": "Once you submit your email, we’ll reach out to set up a no-obligation call to understand your goals, financial situation, and what exactly you’re looking for."
+            },
+            {
+                "title": "Step 2: Receive Your Personalised Strategy",
+                "icon": "/images/planning.png",
+                "description": "After the consultation, we’ll create a customised investment or financial plan tailored to your needs — with clear steps and transparent recommendations."
+            },
+            {
+                "title": "Step 3: Start Building Your Future",
+                "icon": "/images/future.png",
+                "description": "We’ll walk you through your plan, answer any questions, and help you take the first steps with confidence. From there, we stay by your side with ongoing support and guidance."
+            }
+        ]
+    },
+    "faq": {
+        "heading": "Frequently Asked Questions",
+        "subHeading": "General FAQ",
+        "items": [
+            {
+                "id": 0,
+                "title": "1. How do you help reduce my debt?",
+                "body": "We analyze your outstanding liabilities and create a step-by-step plan to pay off high-interest debts first, consolidate loans if needed, and optimize your repayment strategy."
+            },
+            {
+                "id": 1,
+                "title": "2. Will this service improve my credit score?",
+                "body": "Yes. By helping you reduce debt, stay current on payments, and use credit more responsibly, we guide you toward a higher credit score over time."
+            },
+            {
+                "id": 2,
+                "title": "3. Do I need to stop using credit cards?",
+                "body": "Not necessarily. We help you use credit more strategically, not eliminate it altogether. Responsible usage can actually support long-term credit health."
+            },
+            {
+                "id": 3,
+                "title": "4. How long does it take to see results?",
+                "body": "Some clients see improvement within a few months, especially in payment consistency and credit score. Full debt reduction depends on your debt size and repayment plan."
+            },
+            {
+                "id": 4,
+                "title": "5. Can I use this service if I’m not in serious debt?",
+                "body": "Yes. This service is helpful even if you're managing moderate debt or simply want to stay on top of your credit health and avoid future issues."
+            }
+        ]
+    }
+}

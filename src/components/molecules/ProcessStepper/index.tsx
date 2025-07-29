@@ -20,9 +20,9 @@ const ProcessStepper = (props: IProcessStepper) => {
                 <div className={style.step} key={`step_${index}`}>
                     {index !== 0 ? <span className={`${style.dot} ${style.connectStart}`}></span> : <></>}
                     <div>
-                        <span className={style.iconWrap}>
-                            <i className={`font icon-${step.icon}`}></i>
-                        </span>
+                        <figure className={style.iconWrap}>
+                            <img src={step.icon} alt={step.title} />
+                        </figure>
                         <h4>{step.title}</h4>
                         <p>{step.description}</p>
                     </div>
